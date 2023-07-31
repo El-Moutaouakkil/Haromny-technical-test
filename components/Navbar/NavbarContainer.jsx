@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 
-const navItems = ["Products", "Templates", "Pricing", "Blog", "Sign in"];
+const navItems = [`Products`, "Templates", "Pricing", "Blog", "Sign in"];
 
 function NavbarContainer() {
     return (
