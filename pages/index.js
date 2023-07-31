@@ -3,7 +3,12 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import NavbarContainer from "../components/Navbar/NavbarContainer";
+import Hero from "../components/herosection/Hero";
 
 export default function Home() {
-    return <></>;
+    return (
+        <div className='text-center text-red-950'>
+            <Hero />
+        </div>
+    );
 }
