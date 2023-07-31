@@ -5,12 +5,11 @@ function Navbar({ items }) {
     return (
         <nav
             className={`flex items-center gap-3 text-sm font-semibold text-red-900`}>
-            <ul className='flex gap-3'>
+            <ul className='flex gap-5'>
                 {items.map((item, index) => (
                     <li key={index}>{item}</li>
                 ))}
             </ul>
-
             <ActionButtons />
         </nav>
     );
