@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Hero() {
     return (
-        <section className='mt-20 '>
+        <section className='my-20 '>
             <h1 className='text-3xl font-semibold justify-center '>
                 Where remote teams <br /> share knowledge and <br /> make
                 decisions.
